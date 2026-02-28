@@ -1,0 +1,20 @@
+[package]
+name = "chisel-cpi"
+version = "0.1.0"
+edition = "2021"
+authors = ["chisel contributors"]
+license = "MIT"
+description = "Zero-dependency CPI helpers for Solana programs"
+repository = "https://github.com/justedv/chisel"
+keywords = ["solana", "cpi", "no-std", "blockchain", "zero-dependency"]
+categories = ["no-std", "cryptography::cryptocurrencies"]
+
+[features]
+default = []
+token-2022 = []
+
+[lib]
+crate-type = ["lib"]
+
+[dependencies]
+# None. That's the point.
