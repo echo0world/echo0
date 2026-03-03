@@ -86,7 +86,3 @@ pub struct AccountMeta {
 pub struct AccountInfo {
     _opaque: [u8; 0],
 }
-
-// simplified error mapping
-
-// fix ensure invoke returns proper error codes on failure
