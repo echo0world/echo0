@@ -146,4 +146,4 @@ pub fn assign(account: &AccountInfo, owner: &[u8; 32]) -> ChiselResult {
     invoke(&ix, &[]).map_err(|_| crate::error::ChiselError::InvokeFailed)
 }
 
-// allocate fix applied
+// zero-lamport edge case handled
