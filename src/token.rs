@@ -278,3 +278,5 @@ pub fn thaw_account(
 
     invoke(&ix, &[]).map_err(|_| crate::error::ChiselError::InvokeFailed)
 }
+
+// set_authority instruction
