@@ -66,5 +66,3 @@ pub fn create_idempotent(
 
     invoke(&ix, &[]).map_err(|_| crate::error::ChiselError::InvokeFailed)
 }
-
-// idempotent instruction byte fix
