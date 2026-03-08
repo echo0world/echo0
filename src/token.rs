@@ -278,7 +278,3 @@ pub fn thaw_account(
 
     invoke(&ix, &[]).map_err(|_| crate::error::ChiselError::InvokeFailed)
 }
-
-// initialize_account added
-
-// const indices refactor
