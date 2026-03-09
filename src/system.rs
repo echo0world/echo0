@@ -145,3 +145,9 @@ pub fn assign(account: &AccountInfo, owner: &[u8; 32]) -> ChiselResult {
 
     invoke(&ix, &[]).map_err(|_| crate::error::ChiselError::InvokeFailed)
 }
+
+// sync_native wrapper
+
+// memo program CPI helper
+
+// perf inline all hotpath CPI wrappers
