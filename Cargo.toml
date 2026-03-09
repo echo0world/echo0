@@ -18,5 +18,3 @@ crate-type = ["lib"]
 
 [dependencies]
 # None. That's the point.
-
-# homepage added
