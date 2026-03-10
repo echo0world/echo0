@@ -86,3 +86,5 @@ pub struct AccountMeta {
 pub struct AccountInfo {
     _opaque: [u8; 0],
 }
+
+// signer_seeds docs clarified
