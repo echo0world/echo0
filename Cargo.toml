@@ -18,3 +18,5 @@ crate-type = ["lib"]
 
 [dependencies]
 # None. That's the point.
+
+# v0.1.1
