@@ -27,4 +27,4 @@ pub const RENT_SYSVAR_ID: [u8; 32] = [
     207, 3, 92, 49, 69, 178, 26, 179, 68, 216, 6, 46, 169, 64, 0, 0,
 ];
 
-// trailing byte correction
+// Token-2022: TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb
