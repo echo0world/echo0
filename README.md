@@ -195,7 +195,3 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 ## License
 
 MIT — see [LICENSE](LICENSE) for details.
-
-<!-- memo program usage -->
-
-// docs add nostd usage note to README
