@@ -12,5 +12,3 @@ pub enum ChiselError {
     /// Insufficient funds.
     InsufficientFunds,
 }
-
-// feat add InvalidInstruction error variant
