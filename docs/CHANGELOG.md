@@ -35,3 +35,12 @@ All notable changes to this project will be documented in this file.
 - Compile-time program ID constants
 - PDA signer variants (`_signed`) for all mutating operations
 - Zero-dependency, no_std, zero-copy design
+
+## [0.1.2] - 2026-02-18
+
+### Fixed
+- Edge case in token::approve with zero amount
+
+### Added
+- sync_native wrapper for system program
+- Token-2022 transfer_checked support

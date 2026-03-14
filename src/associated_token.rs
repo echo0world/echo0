@@ -66,7 +66,3 @@ pub fn create_idempotent(
 
     invoke(&ix, &[]).map_err(|_| crate::error::ChiselError::InvokeFailed)
 }
-
-// account ordering fix
-
-// fix associatedtoken create should include rent sysvar
