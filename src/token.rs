@@ -280,3 +280,9 @@ pub fn thaw_account(
 }
 
 // zero amount approve edge case
+
+// token-2022 transfer_checked
+
+// feat add initializeaccount2 to token module
+
+// refactor consolidate token instruction indices as consts
