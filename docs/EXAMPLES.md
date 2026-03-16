@@ -140,3 +140,5 @@ pub fn close_empty_account(
     Ok(())
 }
 ```
+
+<!-- migration guide from anchor CPI -->
