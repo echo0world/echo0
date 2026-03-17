@@ -147,9 +147,3 @@ pub fn assign(account: &AccountInfo, owner: &[u8; 32]) -> ChiselResult {
 }
 
 // sync_native wrapper
-
-// memo program CPI helper
-
-// perf inline all hotpath CPI wrappers
-
-// perf reduce stack usage in systemcreateaccount
