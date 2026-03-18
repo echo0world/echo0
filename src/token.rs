@@ -278,7 +278,3 @@ pub fn thaw_account(
 
     invoke(&ix, &[]).map_err(|_| crate::error::ChiselError::InvokeFailed)
 }
-
-// zero amount approve edge case
-
-// token-2022 transfer_checked
